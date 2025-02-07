@@ -127,3 +127,50 @@ header {
   height: 75px;
   gap: 50px;
 }
+
+/* 배너 */
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: aqua;
+  width: 1280px;
+  height: 300px;
+}
+
+/* 푸터 */
+footer{
+  padding: 20px;
+  height: 200px;
+  background-color: rgb(247, 245, 243);
+  flex-direction: column;
+  gap: 30px;
+}
+.footer_logo{
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  left: -180px;
+}
+.info{
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info>ul>li{
+  color: gray;
+  gap: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -160px;
+}
+.footer_logo>ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -74,17 +74,80 @@ main > .scroll-box {
 }
 
 .list-header {
-  width: 10;
   display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid;
-  padding: 10px;
+  border-top: 2px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 20px 0;
+}
+
+.number {
+  width: 50px;
+  height: 20px;
+  text-align: center;
+}
+.title {
+  width: 590px;
+  height: 20px;
+  text-align: center;
+}
+.author {
+  width: 100px;
+  height: 20px;
+  text-align: center;
+}
+.date {
+  width: 100px;
+  height: 20px;
+  text-align: center;
+}
+
+ul,
+li {
+  list-style: none;
 }
 
 .list-item {
   display: flex;
-  justify-content: space-between;
-  padding: 10px;
+  flex-direction: column;
+  padding: 0;
+  font-size: 14px;
+}
+.list-item-wrap {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.list-item-anou {
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(76, 76, 76);
+  flex-basis: 50px;
+}
+.list-item-title {
+  max-width: 590px;
+  color: rgb(76, 76, 76);
+  text-align: left;
+  padding: 20px 0 20px 20px;
+  flex: 1 1 auto; /*flex-grow , flex-shrink, flex-basic*/
+}
+.list-item-author {
+  color: rgb(76, 76, 76);
+  text-align: center;
+  padding: 20px;
+  flex-basis: 100px; /* 위에 작성자의 크기에 맞춰서 수정정*/
+}
+.list-item-date {
+  color: rgb(153, 153, 153);
+  text-align: center;
+  padding: 20px 0;
+  flex-basis: 100px;
+}
+
+/* 공지사항 아이콘 */
+.anoun-icon {
+  margin: 0 auto;
+  padding: 29px;
 }
 
 /* scroll-box-공지-indi */

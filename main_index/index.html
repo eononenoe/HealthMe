@@ -55,8 +55,37 @@
     <main>
         <section>
             <!-- 배너 -->
-            <div class="banner">
-                <img width="1900px" height="300px" src="./img/배달 배너.png" alt="배달 이미지">
+            <div class="slider-block">
+                <input type="radio" id="forward-2" name="slideradio" >
+                <input type="radio" id="forward-3" name="slideradio">
+                <input type="radio" id="backend-1" name="slideradio" checked>
+                <input type="radio" id="backend-2" name="slideradio">
+                <div class="slider-wrapper">
+                    <!-- 1번 슬라이드 -->
+                    <div class="item">
+                        <label for="" class="prev"><span class="material-symbols-outlined">arrow_left</span></label>
+                        <label for="forward-2" class="next"><span class="material-symbols-outlined">arrow_right</span></label>
+                        <div class="banner">
+                            <img width="1900px" height="380px" src="./img/배달 배너.png" alt="배달 이미지">
+                        </div>
+                    </div>
+                    <!-- 2번 슬라이드 -->
+                    <div class="item">
+                        <label for="backend-1" class="prev"><span class="material-symbols-outlined">arrow_left</span></label>
+                        <label for="forward-3" class="next"><span class="material-symbols-outlined">arrow_right</span></label>
+                        <div class="banner">
+                            <img width="1900px" height="380px" src="./img/설날 배너.png" alt="배달 이미지">
+                        </div>
+                    </div>
+                    <!-- 3번 슬라이드 -->
+                    <div class="item">
+                        <label for="backend-2" class="prev"><span class="material-symbols-outlined">arrow_left</span></label>
+                        <label for="" class="next"><span class="material-symbols-outlined">arrow_right</span></label>
+                        <div class="banner">
+                            <img width="1900px" height="380px" src="./img/런치 배너.png" alt="배달 이미지">
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- 아이템 -->
             <content>

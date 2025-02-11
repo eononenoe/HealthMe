@@ -267,7 +267,6 @@ main>section>content {
   border-radius: 10px;
   height: 550px;
   width: 290px;
-  background-color: rgb(222, 222, 222);
 }
 
 .item_img>img{
@@ -342,7 +341,6 @@ footer {
   align-items: center;
   flex-direction: column;
 
-  /* position: fixed; */
   bottom: 0px;
 
   width: 100%;

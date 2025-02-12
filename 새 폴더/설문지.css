@@ -1,0 +1,93 @@
+        main {
+            width: 1286.48;
+            margin: 0 auto;
+            background-color: orange;
+            border: 1px solid;
+            height: 806px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        main>section>.month {
+            width: 999.59px;
+            height: 115.28px;
+            background-color: white;
+            border-radius: 20px;
+            margin: 20px auto;
+
+        }
+
+        main>section>.month>input[type="radio"] {
+            display: none;
+        }
+
+        main>section>.month>div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main>section>.month>div>span {
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+        }
+
+        main>section>.month>div>label>.material-symbols-outlined {
+
+            font-size: 3rem;
+            display: block;
+            cursor: pointer;
+
+        }
+
+
+
+
+        main>.month-middle {
+            width: 1286.48px;
+            display: flex;
+            margin: 0 auto;
+
+        }
+
+        main>section>.month-description {
+            width: 382.52px;
+            height: 606.44px;
+            background-color: white;
+            border-radius: 20px;
+            font-size: 15px;
+            margin-left: 50px;
+            text-align: center;
+            margin-right: 50px;
+        }
+
+        main>section>.month-week {
+            background-color: black;
+
+
+        }
+
+        main>section>.month-week>tr,
+        td {
+            width: 119px;
+            height: 87px;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        main>section>.month-week>tr,
+        .next-month {
+            opacity: 0.5;
+        }
+
+        main>section>.month-week>tr,
+        .text-color {
+            color: blue;
+        }
+
+        main>section>.month-week>tr,
+        .text-color-2 {
+            color: red;
+        }

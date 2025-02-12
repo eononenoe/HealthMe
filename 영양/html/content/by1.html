@@ -260,20 +260,23 @@
 </section>
 
 <script>
-      $(document).ready(function () {
+    $(document).ready(function () {
     var $floating = $(".floating");
-    var stopPosition = 250;
+    var stopPosition = 150;
+    var startOffset = 250; // 시작 위치 조정
 
     $(window).on("scroll", function () {
         var scrollTop = $(window).scrollTop();
+        var newTop = scrollTop + startOffset;
 
         if (scrollTop < stopPosition) {
-            $floating.css({ top: scrollTop + 220 + "px" });
+            $floating.stop().animate({ top: newTop + "px" });  
         } else {
-            $floating.css({ top: stopPosition + "px" });
+            $floating.stop().animate({ top: stopPosition + "px" });
         }
     });
 });
+
 </script>
 
 </body>

@@ -165,7 +165,7 @@ header {
 /*     슬라이더     */
 /* ================ */
 .slider-block {
-  width: 1900px;
+  width: 100%;
   height: 380px;
   margin: 0px auto;
   position: relative;

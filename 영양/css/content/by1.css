@@ -314,6 +314,8 @@ section>.content>main>.carrot{
 
 .side_main {
   height: 45rem;
+  width: 7.5rem;
+  height: auto;
 }
 .floating > a {
   display: grid;
@@ -335,8 +337,8 @@ section>.content>main>.carrot{
 }
 
 .floating > .side_img > img{
-  height: 85px;
-  width: 95px;
+  height: 90px;
+  width: 85px;
   border-radius: 0px;
   box-shadow: none;
   margin: 0px auto;
@@ -345,7 +347,7 @@ section>.content>main>.carrot{
 }
 
 .floating > .side_banner > img{
-  height: 85px;
+  height: 100px;
   width: 95px;
   border-radius: 0px;
   box-shadow: none;
@@ -358,6 +360,8 @@ section>.content>main>.carrot{
   position: absolute;
   left: 85px;
   border-radius: 5px;
+  border: none;
+  font-size: 20px;
 }
 
 .floating > .text12 {

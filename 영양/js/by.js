@@ -55,7 +55,7 @@ loadJQuery(function () {
     $(document).ready(function () {
         var $floating = $(".floating");
         var stopPosition = 150;
-        var startOffset = 250; 
+        var startOffset = 300; 
 
         $(window).on("scroll", function () {
             var scrollTop = $(window).scrollTop();

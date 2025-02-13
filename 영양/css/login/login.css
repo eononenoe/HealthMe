@@ -1,5 +1,4 @@
 
-
 .container {
     display: flex;
     justify-content: center;
@@ -64,11 +63,11 @@ h1{
     outline: none;
     border-radius: 50px;
 }
-.user-info-section i{
+/* .user-info-section i{
     font-size: var(--font-size-normal);
     margin: 0 8px;
     cursor: pointer;
-}
+} */
 
 /********************************/
 

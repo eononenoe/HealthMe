@@ -30,18 +30,6 @@
             name="password" 
             oninvalid="this.setCustomValidity('8자이상 25자 이하 영문소문자 혹은 대문자, 숫자를 1개이상 포함하셔야됩니다.')"
             required>
-            <!-- 
-                ^(?=.*[a-zA-Z])(?=.*[0-9]).{8,25}$
-                ^ : 시작
-                $ : 끝
-                () : 하나의식(묶는단위)
-                {8,25} : 길이(8자이상 25자 이하)
-                ?= : 전방탐색
-                . : 모든문자(길이 1)
-                * : 모든문자(길이 제한 없음)
-                [a-zA-Z] : 알파벳 a-z or A-Z 까지 탐색
-                [0-9] : 숫자 0-9 까지 탐색
-            -->
         </div>
         <div class="row">
             <label for="">비밀번호 재설정</label>
@@ -82,6 +70,7 @@
         <div class="row">
             <select>
                 <option value="">2025</option>
+                <option value="">2000</option>
             </select>
             <select>
                 <option value="">09</option>

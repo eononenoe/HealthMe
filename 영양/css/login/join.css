@@ -54,7 +54,7 @@ form> content > #content1 > .row >label {
 form> content> #content1 >.row>input[type="text"],
 form> content> #content1 > .row>input[type="password"],
 form> content> #content1 > .row>select {
-    width: 350px;
+    width: 200px;
     height: 30px;
     text-align: center;
     align-items: center;

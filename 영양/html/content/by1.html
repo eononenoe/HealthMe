@@ -13,45 +13,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <div>
-                <span class="logo_eng">HealthMe</span>
-                <span>ㅤ|ㅤ</span>
-                <span class="logo_kor"> 헬시미</span>
-            </div>
-            <div class="logo_img">
-                <a href="#">
-                    <img width="100px" height="100px" src="../../img/당근.png" alt="">
-                </a>
-            </div>
-        </div>
-        <!-- 네비게이션 -->
-        <nav>
-            <div class="mainmenu">
-                <ul class="top-header-nav">
-                    <li>
-                        <form class="search-box" action="" method="get">
-                            <button class="search-btn" type="submit">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button> 
-                            <input class="search-txt" type="text" name="" placeholder="검색어를 입력해주세요">
-                        </form>
-                    </li>
-                    <li>로그인</li>
-                    <li>회원가입</li>
-                </ul>
-                <ul class="low-header-nav">
-                    <li>영양성분</li>
-                    <li>구매</li>
-                    <li>달력</li>
-                    <li>뉴스</li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <!-- wo 내용 -->
+    <div id ="header"></div>
+    
     <section>
     <h1><a href="#">재료구매</a></h1>
     <div class="ani-navbar">
@@ -237,47 +200,27 @@
                 </main>
             </div>
             
-            <div class="recommend-section">
-        <div>
-            <i class="fa-solid fa-thumbs-up"></i>
-            <button><</button>
-            <span>1</span>
-            <button>></button>
+            
+            <div class="side_main">
+                <div class="floating">
+                    <a class="side_banner"><img src="https://i.pinimg.com/236x/e1/b1/7f/e1b17fe5260a4a46d939a561c415be18.jpg" class="img"><button lass="btn1" type="button" onclick="alert('광고가 방해가 되었습니까?')">x</button></a>
+                    <a class="text12" href="#">오늘의 레시피</a>
+                    <a class="text12" href="#">영양소 분석</a>
+                    <a class="text12" href="#">달력</a>
+                    <a>최근 본 상품</a>
+                    <a class="side_img" href="https://www.kurly.com/goods/1000178631"><img src="../../img/ba.jpg" class="img"></a>
+                    <a class="side_img" href="https://www.kurly.com/goods/5026448"><img src="../../img/pota.jpg" class="img"></a>
+                    <a class="side_img" href="https://www.kurly.com/goods/5031893"><img src="https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1608291494158l0.jpg" class="img"></a>
+                </div>
+            </div>
+        </section>
+        <div class="recommend-section">
+            <div>
+                <button> < </button>
+                <span>1</span>
+                <button> > </button>
+            </div>
         </div>
-    </div>
-    <div class="side_main">
-        <div class="floating">
-            <a class="side_banner"><img src="https://i.pinimg.com/236x/e1/b1/7f/e1b17fe5260a4a46d939a561c415be18.jpg" class="img"><button lass="btn1" type="button" onclick="alert('광고가 방해가 되었습니까?')">x</button></a>
-            <a class="text12" href="#">오늘의 레시피</a>
-            <a class="text12" href="#">영양소 분석</a>
-            <a class="text12" href="#">달력</a>
-            <a>최근 본 상품</a>
-            <a class="side_img" href="https://www.kurly.com/goods/1000178631"><img src="../../img/ba.jpg" class="img"></a>
-            <a class="side_img" href="https://www.kurly.com/goods/5026448"><img src="../../img/pota.jpg" class="img"></a>
-            <a class="side_img" href="https://www.kurly.com/goods/5031893"><img src="https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1608291494158l0.jpg" class="img"></a>
-        </div>
-    </div>
-</section>
-
-<script>
-    $(document).ready(function () {
-    var $floating = $(".floating");
-    var stopPosition = 150;
-    var startOffset = 250; // 시작 위치 조정
-
-    $(window).on("scroll", function () {
-        var scrollTop = $(window).scrollTop();
-        var newTop = scrollTop + startOffset;
-
-        if (scrollTop < stopPosition) {
-            $floating.stop().animate({ top: newTop + "px" });  
-        } else {
-            $floating.stop().animate({ top: stopPosition + "px" });
-        }
-    });
-});
-
-</script>
-
+<div id="footer"></div>
 </body>
 </html>

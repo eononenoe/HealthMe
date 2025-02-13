@@ -329,11 +329,29 @@ main>section>content {
   display: grid;
   gap: 15px;
 }
-
+.news_card_top{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
 .news_card {
   padding: 20px;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
+  box-shadow: 0 0 2px gray;
   border-radius: 10px;
+}
+.news_card_subtitle{
+  color: #E80000;
+  font-size: 20px;
+  font-weight: 600;
+}
+.news_card_title{
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.news_card_content{
+
 }
 
 /* ================ */
@@ -408,6 +426,9 @@ main>section>content {
   height: 45px;
 
   font-size: 1.15rem;
+}
+.item_store>.item_add:hover{
+  cursor: pointer;
 }
 
 .item_store>.item_name {

@@ -6,6 +6,9 @@ a {
   text-decoration: none;
 }
 
+main {
+  margin-bottom: 1050px;
+}
 /* 버튼 */
 .news-banner {
   display: flex;

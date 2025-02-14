@@ -228,7 +228,7 @@ li {
   color: white;
 }
 
-.annou-section > .annou-section-indi > .anounce-img {
+.anounce-img {
   object-fit: cover;
   width: 421px;
   height: 200px;
@@ -294,7 +294,7 @@ li {
   border: 1px solid;
   margin-bottom: 10px;
 }
-.hot-issue-container > .hot-issue-img {
+.hot-issue-img {
   width: 854px;
   height: 250px;
   object-fit: cover;

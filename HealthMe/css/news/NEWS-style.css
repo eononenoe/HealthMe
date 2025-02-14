@@ -14,7 +14,7 @@ a {
   position: relative;
   left: -317px;
   gap: 10px; /*버튼 사이 간격*/
-  margin-top: 10px;
+  margin-top: 20px;
 }
 main > .news-banner > .announ {
   background-color: #3e74ff;
@@ -32,7 +32,7 @@ main > .news-banner > .popular {
 }
 
 main > .news-banner > .hot-issue {
-  background-color: #32ba79;
+  background-color: orange;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   padding: 8px 16px;
@@ -43,7 +43,7 @@ main > .news-banner > .hot-issue {
 main > .scroll-box {
   width: 970px;
   /* height: 1000px; 이거 지우면 세로 scroll 자동 늘어남 */
-  border: 2px solid blue;
+  border: 1px solid rgba(19, 14, 103, 0.705);
   padding: 10px;
   /* overflow: scroll; */
   display: flex;
@@ -59,6 +59,10 @@ main > .scroll-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+}
+
+h2 {
+  margin: 20px 0;
 }
 /* 공지사항 테이블  */
 
@@ -120,6 +124,7 @@ li {
   color: rgb(76, 76, 76);
   text-align: left;
   padding: 20px 0 20px 20px;
+
   flex: 1 1 auto; /*flex-grow , flex-shrink, flex-basic*/
 }
 .list-item-author {
@@ -224,7 +229,7 @@ li {
 }
 
 .annou-section > .annou-section-indi > .anounce-img {
-  background-color: greenyellow;
+  object-fit: cover;
   width: 421px;
   height: 200px;
 }
@@ -244,7 +249,7 @@ li {
 }
 
 .ingre-img {
-  background-color: rgb(188, 123, 250);
+  object-fit: cover;
   width: 367px;
   height: 200px;
 }
@@ -254,7 +259,7 @@ li {
 }
 
 .ingre-img-big {
-  background-color: rgb(188, 123, 250);
+  object-fit: cover;
   width: 474px;
   height: 450px;
 }
@@ -292,7 +297,7 @@ li {
 .hot-issue-container > .hot-issue-img {
   width: 854px;
   height: 250px;
-  background-color: antiquewhite;
+  object-fit: cover;
 }
 .hot-issue-comment {
   margin-top: 10px;
@@ -325,6 +330,15 @@ li {
   background-color: rgb(255, 255, 255);
   border: 1px solid orange;
   border-radius: 5px;
+}
+.page_up {
+  border-top: 1px solid orange;
+  padding: 20px;
+  margin-top: 50px;
+}
+.side_main > .floating > .page_up > a > .material-symbols-outlined {
+  font-size: 40px;
+  color: gray;
 }
 
 .floating > .side_img > img {
@@ -368,4 +382,9 @@ li {
 
 .floating > .text12:hover {
   color: orange;
+}
+
+.latest_watch {
+  display: block;
+  margin: 15px;
 }

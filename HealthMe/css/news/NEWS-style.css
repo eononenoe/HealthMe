@@ -2,12 +2,6 @@
   box-sizing: border-box;
 }
 
-header {
-  width: 970px;
-  height: 150px;
-  background-color: aquamarine;
-  margin: 0 auto;
-}
 a {
   text-decoration: none;
 }
@@ -307,4 +301,71 @@ li {
 .hot-issue-icon {
   position: relative;
   top: 41px;
+}
+
+/* 옆슬라이더 박스 */
+.side_main {
+  height: 45rem;
+  width: 7.5rem;
+  height: auto;
+}
+.floating > a {
+  display: grid;
+  /* text-decoration: underline; */
+  margin: 10px;
+  font-weight: 700;
+  margin-top: 15px;
+
+}
+.floating {
+  position: fixed;  
+  top: 400px;        
+  right: 30px;      
+  width: 7.5rem;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+.floating > .side_img > img{
+  height: 90px;
+  width: 85px;
+  border-radius: 0px;
+  box-shadow: none;
+  margin: 0px auto;
+  border-radius: 5px;
+
+}
+
+.floating > .side_banner > img{
+  height: 100px;
+  width: 95px;
+  border-radius: 0px;
+  box-shadow: none;
+  margin: 0px auto;
+  border-radius: 5px;
+
+}
+
+.floating > .side_banner > button{
+  position: absolute;
+  left: 85px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.floating > .text12 {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(211, 210, 210);
+  border-radius: 6px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  font-weight: none;
+}
+
+.floating > .text12:hover{
+  color: orange;
 }

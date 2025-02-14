@@ -340,9 +340,14 @@ li {
   height: 45rem;
   width: 7.5rem;
   height: auto;
+  text-align: center;
 }
+<<<<<<< HEAD:HealthMe/css/news/NEWS-style.css
 
 .floating>a {
+=======
+.floating > .text12 {
+>>>>>>> d29cb148a7cb6cdd29648602d958cd5e89525575:HealthMe/css/content/NEWS-style.css
   display: grid;
   /* text-decoration: underline; */
   margin: 10px;
@@ -352,9 +357,14 @@ li {
 }
 
 .floating {
+<<<<<<< HEAD:HealthMe/css/news/NEWS-style.css
   position: fixed;
   top: 400px;
   right: 30px;
+=======
+  position: fixed;          
+  right: 30px;      
+>>>>>>> d29cb148a7cb6cdd29648602d958cd5e89525575:HealthMe/css/content/NEWS-style.css
   width: 7.5rem;
   height: auto;
   background-color: rgb(255, 255, 255);
@@ -379,15 +389,18 @@ li {
   box-shadow: none;
   margin: 0px auto;
   border-radius: 5px;
+  margin-top: 10px;
 
 }
 
 .floating>.side_banner>button {
   position: absolute;
-  left: 85px;
-  border-radius: 5px;
+  left: 120spx;
+  border-radius: 50px;
   border: none;
-  font-size: 20px;
+  padding: 3px;
+  font-size: 10px;
+  background-color: white;
 }
 
 .floating>.text12 {

@@ -1,0 +1,216 @@
+    /* 옆슬라이더 박스 */
+.side_main {
+    height: 45rem;
+    width: 7.5rem;
+    height: auto;
+  }
+  .floating > a {
+    display: grid;
+    /* text-decoration: underline; */
+    margin: 10px;
+    font-weight: 700;
+    margin-top: 15px;
+  
+  }
+  .floating {
+    position: fixed;  
+    top: 400px;        
+    right: 30px;      
+    width: 7.5rem;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid orange;
+    border-radius: 5px;
+  }
+  
+  .floating > .side_img > img{
+    height: 90px;
+    width: 85px;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0px auto;
+    border-radius: 5px;
+  
+  }
+  
+  .floating > .side_banner > img{
+    height: 100px;
+    width: 95px;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0px auto;
+    border-radius: 5px;
+  
+  }
+  
+  .floating > .side_banner > button{
+    position: absolute;
+    left: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .floating > .text12 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 6px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: none;
+  }
+  
+  .floating > .text12:hover{
+    color: orange;
+  }   
+        
+        .material-symbols-outlined {
+          font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+          font-size: 3rem;
+          display: block;
+          cursor: pointer;
+      }
+
+      .calendar-header {
+          width: 1200px;
+          margin: 50px auto;
+          overflow: hidden;
+      }
+
+      .calendar-header>.calendar-main {
+          width: 3600px;
+
+
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          border-radius: 25px;
+          position: relative;
+          left: 0;
+      }
+
+      .calendar-header>.calendar-main>.calendar-item {
+          width: 1200px;
+          border: 1px solid black;
+          border-radius: 25px;
+          position: relative;
+          flex-wrap: wrap;
+          justify-content: center;
+          background-color: orange;
+      }
+
+      .calendar-header>.calendar-main>.calendar-item>.item-header {
+          width: 999.59px;
+          height: 115.28px;
+          display: flex;
+          margin: 30px auto;
+          color: black;
+          background-color: white;
+          border-radius: 25px;
+          justify-content: center;
+
+      }
+
+      .calendar-header>.calendar-main>.calendar-item>.item-header>.show {
+          font-size: 3rem;
+          margin-left: 20px;
+          margin-right: 20px;
+          margin-top: 30px;
+      }
+
+      .calendar-header>.calendar-main>.calendar-item>.item-header>label {
+          width: 50px;
+          height: 50px;
+          border: 5px solid white;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 30px;
+      }
+
+
+      /* .calendar-header>.calendar-main>.calendar-item:nth-child(1) {
+    background-color: orange;
+} */
+
+      .calendar-header>.calendar-main>.calendar-item:nth-child(2) {
+          background-color: black;
+      }
+
+      .calendar-header>.calendar-main>.calendar-item:nth-child(3) {
+          background-color: red;
+      }
+
+
+      .calendar-header>.calendar-main>.calendar-item>label>.material-symbols-outlined {
+          font-size: 3rem;
+          display: block;
+          cursor: pointer;
+      }
+
+      .calendar-header>.calendar-main>.calendar-item>.month-middle {
+          display: flex;
+          margin: 50px auto;
+          gap: 30px;
+          margin-left: 30px;
+          margin-right: 30px;
+      }
+
+      .calendar-header>.calendar-main>.calendar-item>.month-middle>.month-description {
+          width: 382.52px;
+          height: 606.44px;
+          background-color: white;
+          border-radius: 20px;
+          font-size: 15px;
+          text-align: center;
+
+      }
+
+      .calendar-header>.calendar-main>.calendar-item>.month-middle>.month-week>tr,
+      td {
+          width: 119px;
+          height: 87px;
+          background-color: black;
+          font-size: 25px;
+          text-align: center;
+          border: 1px white solid;
+          color: white;
+      }
+
+      .next-month {
+
+          opacity: 0.5;
+      }
+
+      .calendar-header>.calendar-main>.calendar-item>.month-middle>.month-week>tr,
+      .text-color {
+          color: blue;
+      }
+
+      .calendar-header>.calendar-main>.calendar-item>.month-middle>.month-week>tr,
+      .text-color-2 {
+          color: red;
+      }
+
+      .calendar-header>input[type="radio"] {
+          display: none;
+      }
+
+      .calendar-header>input[type="radio"]#after-month-1:checked~.calendar-main {
+          left: -1200px;
+      }
+
+      .calendar-header>input[type="radio"]#after-month-2:checked~.calendar-main {
+          left: -2400px;
+      }
+
+      .calendar-header>input[type="radio"]#befor-month-2:checked~.calendar-main {
+          left: -1200px;
+      }
+
+      .calendar-header>input[type="radio"]#befor-month-1:checked~.calendar-main {
+          left: 0px;
+      }

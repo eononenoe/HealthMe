@@ -308,8 +308,9 @@ li {
   height: 45rem;
   width: 7.5rem;
   height: auto;
+  text-align: center;
 }
-.floating > a {
+.floating > .text12 {
   display: grid;
   /* text-decoration: underline; */
   margin: 10px;
@@ -318,8 +319,7 @@ li {
 
 }
 .floating {
-  position: fixed;  
-  top: 400px;        
+  position: fixed;          
   right: 30px;      
   width: 7.5rem;
   height: auto;
@@ -345,15 +345,18 @@ li {
   box-shadow: none;
   margin: 0px auto;
   border-radius: 5px;
+  margin-top: 10px;
 
 }
 
 .floating > .side_banner > button{
   position: absolute;
-  left: 85px;
-  border-radius: 5px;
+  left: 120spx;
+  border-radius: 50px;
   border: none;
-  font-size: 20px;
+  padding: 3px;
+  font-size: 10px;
+  background-color: white;
 }
 
 .floating > .text12 {

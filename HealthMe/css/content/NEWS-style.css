@@ -16,14 +16,8 @@ main{
   align-items: center;
   position: relative;
   left: -317px;
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-  gap: 10px;
-  /*버튼 사이 간격*/
-  margin-top: 50px;
-=======
   gap: 10px; /*버튼 사이 간격*/
   margin-top: 20px;
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
 }
 
 main>.news-banner>.announ {
@@ -42,13 +36,8 @@ main>.news-banner>.popular {
   color: white;
 }
 
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-main>.news-banner>.hot-issue {
-  background-color: #32ba79;
-=======
 main > .news-banner > .hot-issue {
   background-color: orange;
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   padding: 8px 16px;
@@ -80,12 +69,9 @@ main>.scroll-box {
   grid-template-rows: repeat(2, 1fr);
 }
 
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-=======
 h2 {
   margin: 20px 0;
 }
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
 /* 공지사항 테이블  */
 
 .container {
@@ -150,13 +136,8 @@ li {
   color: rgb(76, 76, 76);
   text-align: left;
   padding: 20px 0 20px 20px;
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-  flex: 1 1 auto;
-  /*flex-grow , flex-shrink, flex-basic*/
-=======
 
   flex: 1 1 auto; /*flex-grow , flex-shrink, flex-basic*/
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
 }
 
 .list-item-author {
@@ -268,13 +249,8 @@ li {
   color: white;
 }
 
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-.annou-section>.annou-section-indi>.anounce-img {
-  background-color: greenyellow;
-=======
 .anounce-img {
   object-fit: cover;
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
   width: 421px;
   height: 200px;
 }
@@ -344,12 +320,7 @@ li {
   border: 1px solid;
   margin-bottom: 10px;
 }
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-
-.hot-issue-container>.hot-issue-img {
-=======
 .hot-issue-img {
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
   width: 854px;
   height: 250px;
   object-fit: cover;
@@ -372,12 +343,7 @@ li {
   height: auto;
   text-align: center;
 }
-<<<<<<< HEAD:HealthMe/css/news/NEWS-style.css
-
-.floating>a {
-=======
 .floating > .text12 {
->>>>>>> d29cb148a7cb6cdd29648602d958cd5e89525575:HealthMe/css/content/NEWS-style.css
   display: grid;
   /* text-decoration: underline; */
   margin: 10px;
@@ -386,19 +352,12 @@ li {
 }
 
 .floating {
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-<<<<<<< HEAD:HealthMe/css/news/NEWS-style.css
+
   position: fixed;
   top: 400px;
   right: 30px;
-=======
   position: fixed;          
   right: 30px;      
->>>>>>> d29cb148a7cb6cdd29648602d958cd5e89525575:HealthMe/css/content/NEWS-style.css
-=======
-  position: fixed;
-  right: 30px;
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
   width: 7.5rem;
   height: auto;
   background-color: rgb(255, 255, 255);
@@ -415,11 +374,7 @@ li {
   color: gray;
 }
 
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-.floating>.side_img>img {
-=======
 .floating > .side_img > img {
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
   height: 90px;
   width: 85px;
   border-radius: 0px;
@@ -428,11 +383,7 @@ li {
   border-radius: 5px;
 }
 
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-.floating>.side_banner>img {
-=======
 .floating > .side_banner > img {
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
   height: 100px;
   width: 95px;
   border-radius: 0px;
@@ -442,11 +393,7 @@ li {
   margin-top: 10px;
 }
 
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-.floating>.side_banner>button {
-=======
 .floating > .side_banner > button {
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
   position: absolute;
   left: 120spx;
   border-radius: 50px;
@@ -466,11 +413,7 @@ li {
   font-weight: none;
 }
 
-<<<<<<< HEAD:HealthMe/css/content/NEWS-style.css
-.floating>.text12:hover {
-=======
 .floating > .text12:hover {
->>>>>>> c013f1aca33925250662a1bb8ba1d5a8853cef3b:HealthMe/css/news/NEWS-style.css
   color: orange;
 }
 

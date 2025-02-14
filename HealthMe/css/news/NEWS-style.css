@@ -1,5 +1,3 @@
-<<<<<<< HEAD:뉴스/NEWS-style.css
-=======
 * {
   box-sizing: border-box;
 }
@@ -318,11 +316,10 @@ li {
   margin: 10px;
   font-weight: 700;
   margin-top: 15px;
-
 }
 .floating {
-  position: fixed;          
-  right: 30px;      
+  position: fixed;
+  right: 30px;
   width: 7.5rem;
   height: auto;
   background-color: rgb(255, 255, 255);
@@ -330,17 +327,16 @@ li {
   border-radius: 5px;
 }
 
-.floating > .side_img > img{
+.floating > .side_img > img {
   height: 90px;
   width: 85px;
   border-radius: 0px;
   box-shadow: none;
   margin: 0px auto;
   border-radius: 5px;
-
 }
 
-.floating > .side_banner > img{
+.floating > .side_banner > img {
   height: 100px;
   width: 95px;
   border-radius: 0px;
@@ -348,10 +344,9 @@ li {
   margin: 0px auto;
   border-radius: 5px;
   margin-top: 10px;
-
 }
 
-.floating > .side_banner > button{
+.floating > .side_banner > button {
   position: absolute;
   left: 120spx;
   border-radius: 50px;
@@ -371,7 +366,6 @@ li {
   font-weight: none;
 }
 
-.floating > .text12:hover{
+.floating > .text12:hover {
   color: orange;
 }
->>>>>>> 6672914040e9d109ae509ced04afd949fbb7f429:HealthMe/css/news/NEWS-style.css

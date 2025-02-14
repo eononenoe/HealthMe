@@ -5,11 +5,7 @@
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
 /* width: calc(100% - 320px); */
@@ -57,7 +53,8 @@ header {
   color: lightgray;
 }
 
-.logo_img {}
+.logo_img {
+}
 
 .logo_eng {
   font-family: sans-serif;
@@ -120,7 +117,6 @@ header {
 /*    네비게이션    */
 /* ================ */
 .mainmenu {
-
   display: flex;
   flex-direction: column;
   height: 140px;
@@ -138,7 +134,6 @@ header {
   width: 750px;
   height: 75px;
   gap: 30px;
-
 }
 
 .low_header_nav {
@@ -152,7 +147,7 @@ header {
   height: 75px;
   gap: 50px;
 }
-.low_header_nav>li>a{
+.low_header_nav > li > a {
   text-decoration: none;
   color: orange;
 }
@@ -161,7 +156,7 @@ header {
 /*       배너       */
 /* ================ */
 
-.banner>img {
+.banner > img {
   z-index: -10;
 }
 
@@ -199,7 +194,6 @@ header {
   width: 100%;
   object-fit: cover;
 }
-
 
 /* 자동 슬라이드 전환 애니메이션 */
 @keyframes autoSlide {
@@ -254,7 +248,7 @@ header {
 /*       메인       */
 /* ================ */
 main {
-  height: 2300px;
+  height: 1000px;
 }
 
 .main_low_title {
@@ -263,7 +257,7 @@ main {
   color: black;
 }
 
-main>section>content {
+main > section > content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -353,17 +347,16 @@ main>section>content {
   justify-content: center;
   align-items: center;
   gap: 40px;
-
 }
 
-.main_low_top_content>li {
+.main_low_top_content > li {
   margin-top: 5px;
 }
 
 /* ================ */
 /*      아이템       */
 /* ================ */
-.main_low_content>.main_low_low_content>.item_store {
+.main_low_content > .main_low_low_content > .item_store {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -374,7 +367,7 @@ main>section>content {
   width: 290px;
 }
 
-.item_img>img {
+.item_img > img {
   width: 290px;
   height: 350px;
   border-radius: 5px;
@@ -382,12 +375,11 @@ main>section>content {
   margin-bottom: 2px;
 }
 
-.item_store>.item_add {
+.item_store > .item_add {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 
   border: 1px solid rgb(171, 171, 171);
   border-radius: 5px;
@@ -398,52 +390,49 @@ main>section>content {
   font-size: 1.15rem;
 }
 
-.item_store>.item_name {
+.item_store > .item_name {
   width: 290px;
   height: 50px;
   margin-top: 5px;
-
 
   font-size: 1.15rem;
   color: black;
 }
 
-.item_store>.item_discount_price {
+.item_store > .item_discount_price {
   width: 290px;
 
   font-size: 1rem;
   color: rgb(171, 171, 171);
 }
 
-.item_store>.item_price>ul {
+.item_store > .item_price > ul {
   display: flex;
   gap: 5px;
 }
 
-.item_store>.item_price {
+.item_store > .item_price {
   width: 290px;
 
   font-size: 1.15rem;
 }
 
-.item_price>ul>.discount {
-  color: #E80000;
+.item_price > ul > .discount {
+  color: #e80000;
   font-weight: 600;
 }
 
-.item_price>ul>.price {
+.item_price > ul > .price {
   color: black;
   font-weight: 600;
 }
 
-.item_store>.item_review {
+.item_store > .item_review {
   color: rgb(171, 171, 171);
   width: 290px;
 
   font-size: 0.813rem;
 }
-
-
 
 /* ================ */
 /*       푸터       */
@@ -458,22 +447,22 @@ footer {
 
   width: 100%;
   height: 100px;
-  background-color: rgb(247, 245, 243);
+  background-color: rgb(202, 159, 115);
 }
 
-footer>.top_info {
+footer > .top_info {
   color: gray;
   font-size: 0.75rem;
   margin-bottom: 5px;
 }
 
-footer>.top_info>ul {
+footer > .top_info > ul {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 8px;
 }
 
-footer>.low_info {
+footer > .low_info {
   font-size: 0.75rem;
 }

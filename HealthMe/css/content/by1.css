@@ -1,6 +1,6 @@
 section {
     width: 95rem;
-    height: auto;
+    height: 1400px;
     margin: 0px auto;
     text-align: center;
     align-items: center;
@@ -8,6 +8,7 @@ section {
     margin-top: 10px;
     flex: 1;
     flex-wrap: wrap;
+    
 }
 
 section> h1{

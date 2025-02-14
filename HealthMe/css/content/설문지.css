@@ -10,12 +10,11 @@
   margin: 10px;
   font-weight: 700;
   margin-top: 15px;
-
 }
 .floating {
-  position: fixed;  
-  top: 400px;        
-  right: 30px;      
+  position: fixed;
+  top: 400px;
+  right: 30px;
   width: 7.5rem;
   height: auto;
   background-color: rgb(255, 255, 255);
@@ -23,27 +22,25 @@
   border-radius: 5px;
 }
 
-.floating > .side_img > img{
+.floating > .side_img > img {
   height: 90px;
   width: 85px;
   border-radius: 0px;
   box-shadow: none;
   margin: 0px auto;
   border-radius: 5px;
-
 }
 
-.floating > .side_banner > img{
+.floating > .side_banner > img {
   height: 100px;
   width: 95px;
   border-radius: 0px;
   box-shadow: none;
   margin: 0px auto;
   border-radius: 5px;
-
 }
 
-.floating > .side_banner > button{
+.floating > .side_banner > button {
   position: absolute;
   left: 100px;
   border-radius: 5px;
@@ -62,7 +59,7 @@
   font-weight: none;
 }
 
-.floating > .text12:hover{
+.floating > .text12:hover {
   color: orange;
 }
 
@@ -71,15 +68,16 @@ section > .survey {
   padding: 0 auto;
   list-style-type: none;
 }
-
-
+/* ------------------------------------------- */
 .survey-header {
   padding-left: 0px;
   display: flex;
   justify-content: space-between;
 
   /* border: 1px solid; */
- 
+  margin: 0 auto;
+  padding: 0 auto;
+  list-style-type: none;
   width: 800px;
   height: 1047px;
 }
@@ -198,18 +196,25 @@ section > .survey {
   justify-content: center;
   text-align: center;
   margin-top: 50px;
+  margin: 0 auto;
+  padding: 0 auto;
+  list-style-type: none;
 }
 .flippingcards-cast {
-  width: 1000px;
+  height: 600px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 .flippingcards {
   width: 233px;
   height: 312px;
   /* border: 1px solid; */
-  margin-top: 50px;
+  /* margin-top: 50px; */
   position: relative;
   perspective: 1000px;
+  /* margin: 0 auto; */
 }
 .cards {
   transition: 1s;

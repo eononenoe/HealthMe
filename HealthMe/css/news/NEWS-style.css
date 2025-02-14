@@ -6,6 +6,9 @@ a {
   text-decoration: none;
 }
 
+main{
+  margin-bottom: 1050px;
+}
 /* 버튼 */
 .news-banner {
   display: flex;
@@ -13,17 +16,20 @@ a {
   align-items: center;
   position: relative;
   left: -317px;
-  gap: 10px; /*버튼 사이 간격*/
-  margin-top: 10px;
+  gap: 10px;
+  /*버튼 사이 간격*/
+  margin-top: 50px;
 }
-main > .news-banner > .announ {
+
+main>.news-banner>.announ {
   background-color: #3e74ff;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   padding: 8px 16px;
   color: white;
 }
-main > .news-banner > .popular {
+
+main>.news-banner>.popular {
   background-color: #d06e8f;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -31,7 +37,7 @@ main > .news-banner > .popular {
   color: white;
 }
 
-main > .news-banner > .hot-issue {
+main>.news-banner>.hot-issue {
   background-color: #32ba79;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -40,7 +46,7 @@ main > .news-banner > .hot-issue {
 }
 
 /* scroll-box */
-main > .scroll-box {
+main>.scroll-box {
   width: 970px;
   /* height: 1000px; 이거 지우면 세로 scroll 자동 늘어남 */
   border: 2px solid blue;
@@ -48,11 +54,14 @@ main > .scroll-box {
   /* overflow: scroll; */
   display: flex;
   justify-content: flex-start;
-  margin: 0 auto; /*가운데 정렬*/
+  margin: 0 auto;
+  /*가운데 정렬*/
 }
+
 .scroll-box-under {
   margin: 0 auto;
 }
+
 .annou-section {
   width: 855px;
   gap: 10px;
@@ -60,6 +69,7 @@ main > .scroll-box {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
+
 /* 공지사항 테이블  */
 
 .container {
@@ -82,16 +92,19 @@ main > .scroll-box {
   height: 20px;
   text-align: center;
 }
+
 .title {
   width: 590px;
   height: 20px;
   text-align: center;
 }
+
 .author {
   width: 100px;
   height: 20px;
   text-align: center;
 }
+
 .date {
   width: 100px;
   height: 20px;
@@ -115,19 +128,24 @@ li {
   color: rgb(76, 76, 76);
   flex-basis: 50px;
 }
+
 .list-item-title {
   max-width: 590px;
   color: rgb(76, 76, 76);
   text-align: left;
   padding: 20px 0 20px 20px;
-  flex: 1 1 auto; /*flex-grow , flex-shrink, flex-basic*/
+  flex: 1 1 auto;
+  /*flex-grow , flex-shrink, flex-basic*/
 }
+
 .list-item-author {
   color: rgb(76, 76, 76);
   text-align: center;
   padding: 20px;
-  flex-basis: 100px; /* 위에 작성자의 크기에 맞춰서 수정정*/
+  flex-basis: 100px;
+  /* 위에 작성자의 크기에 맞춰서 수정정*/
 }
+
 .list-item-date {
   color: rgb(153, 153, 153);
   text-align: center;
@@ -142,6 +160,7 @@ li {
   height: 867px;
   overflow: hidden;
 }
+
 .sliders {
   display: flex;
   width: 200%;
@@ -149,6 +168,7 @@ li {
   transition: transform 0.5s ease;
   overflow: hidden;
 }
+
 .anoun-icon {
   position: relative;
   top: 0;
@@ -166,12 +186,14 @@ li {
   display: none;
 }
 
-#slide1:checked ~ .sliders {
+#slide1:checked~.sliders {
   transform: translateX(0);
 }
-#slide2:checked ~ .sliders {
+
+#slide2:checked~.sliders {
   transform: translateX(-50%);
 }
+
 .list-item {
   display: flex;
   flex-direction: column;
@@ -179,6 +201,7 @@ li {
   font-size: 14px;
   width: 50%;
 }
+
 .list-item,
 .list-item-slide-page {
   width: 100%;
@@ -186,8 +209,9 @@ li {
   margin: 0;
   padding: 0;
 }
+
 /* scroll-box-공지-indi */
-.annou-section > .annou-section-indi {
+.annou-section>.annou-section-indi {
   border: 1px solid slateblue;
 }
 
@@ -200,7 +224,7 @@ li {
 }
 
 /* icon */
-.anoun-comment > .anoun-comment-letter {
+.anoun-comment>.anoun-comment-letter {
   display: inline-block;
   height: 70px;
   margin-top: 10px;
@@ -223,7 +247,7 @@ li {
   color: white;
 }
 
-.annou-section > .annou-section-indi > .anounce-img {
+.annou-section>.annou-section-indi>.anounce-img {
   background-color: greenyellow;
   width: 421px;
   height: 200px;
@@ -236,6 +260,7 @@ li {
   display: grid;
   grid-template-columns: 370px 1fr;
 }
+
 .popular-ingredient {
   display: flex;
   flex-direction: column;
@@ -248,6 +273,7 @@ li {
   width: 367px;
   height: 200px;
 }
+
 .popular-ingredient {
   border: 1px solid slateblue;
   width: 367px;
@@ -267,9 +293,11 @@ li {
   margin-bottom: 10px;
   gap: 10px;
 }
+
 .ingre-comment {
   height: 70px;
 }
+
 .ingre-comment-letter {
   margin-top: 3px;
   display: inline-block;
@@ -279,6 +307,7 @@ li {
 .ingre-comment-big {
   height: 100px;
 }
+
 .icon-big {
   position: relative;
   top: 54px;
@@ -289,15 +318,18 @@ li {
   border: 1px solid;
   margin-bottom: 10px;
 }
-.hot-issue-container > .hot-issue-img {
+
+.hot-issue-container>.hot-issue-img {
   width: 854px;
   height: 250px;
   background-color: antiquewhite;
 }
+
 .hot-issue-comment {
   margin-top: 10px;
   height: 100px;
 }
+
 .hot-issue-icon {
   position: relative;
   top: 41px;
@@ -309,7 +341,8 @@ li {
   width: 7.5rem;
   height: auto;
 }
-.floating > a {
+
+.floating>a {
   display: grid;
   /* text-decoration: underline; */
   margin: 10px;
@@ -317,10 +350,11 @@ li {
   margin-top: 15px;
 
 }
+
 .floating {
-  position: fixed;  
-  top: 400px;        
-  right: 30px;      
+  position: fixed;
+  top: 400px;
+  right: 30px;
   width: 7.5rem;
   height: auto;
   background-color: rgb(255, 255, 255);
@@ -328,7 +362,7 @@ li {
   border-radius: 5px;
 }
 
-.floating > .side_img > img{
+.floating>.side_img>img {
   height: 90px;
   width: 85px;
   border-radius: 0px;
@@ -338,7 +372,7 @@ li {
 
 }
 
-.floating > .side_banner > img{
+.floating>.side_banner>img {
   height: 100px;
   width: 95px;
   border-radius: 0px;
@@ -348,7 +382,7 @@ li {
 
 }
 
-.floating > .side_banner > button{
+.floating>.side_banner>button {
   position: absolute;
   left: 85px;
   border-radius: 5px;
@@ -356,7 +390,7 @@ li {
   font-size: 20px;
 }
 
-.floating > .text12 {
+.floating>.text12 {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(211, 210, 210);
   border-radius: 6px;
@@ -366,6 +400,6 @@ li {
   font-weight: none;
 }
 
-.floating > .text12:hover{
+.floating>.text12:hover {
   color: orange;
 }

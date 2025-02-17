@@ -126,7 +126,6 @@ main > .carrot > a > img:hover{
 
     nav>.category{
     border: 1px solid  rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
     width: auto;
     border-radius: 5px;
     height: 5px;
@@ -245,7 +244,6 @@ section>.content>main>.carrot{
   font-size: 12px;
   color: black;
   text-decoration: none;
-  font-weight: none;
 }
 
 .floating > .text12:hover{

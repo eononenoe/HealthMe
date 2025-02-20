@@ -456,12 +456,6 @@ td > .crab > span {
   height: 30px;
 }
 
-.day {
-  /* margin: 0 auto;
-  padding: 0 auto; */
-  /* height: 100px; */
-}
-
 .pig {
   display: flex;
   height: 30px;
@@ -472,15 +466,9 @@ td > .crab > span {
   height: 30px;
 }
 
-/* .calendar-header
-  > .calendar-main
-  > .calendar-item
-  > .month-middle
-  > .month-week
-  > tr.week
-  > td {
+tr.week td {
   height: 20px !important;
-} */
+}
 
 .next-month {
   opacity: 0.5;

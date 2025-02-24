@@ -22,46 +22,21 @@ body {
   margin: 0;
   padding: 0;
 }
+
 a{
   text-decoration: none;
-}
-/* ================ */
-/*     메인 네비    */
-/* ================ */
-
-.Purchase_title{
-  font-family: sans-serif;
-  margin: 70px auto;
-  font-size: 2rem;
-  font-weight: 600;
-  color: rgb(45, 45, 45);
-}
-.Purchase_top_content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1280px;
-  height: 200px;
-  margin-bottom: 70px;
-  gap: 100px;
-  box-shadow: 0 0 3px gray;
-  font-size: 1.2rem;
-  color: rgb(45, 45, 45);
-}
-.Purchase_low_conten{
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 20px;
-  width: 1280px;
-  color: gray;
+  color: grey;
+  cursor: pointer;
 }
 
 /* ================ */
 /*       메인       */
 /* ================ */
 main{
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
 }
 .Purchase_content {
   width: 1280px;
@@ -84,19 +59,58 @@ main{
   gap: 40px;
 }
 
+/* ================ */
+/*     메인 네비    */
+/* ================ */
+
+.Purchase_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  margin: 50px auto;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(45, 45, 45);
+}
+.Purchase_top_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: 200px;
+  margin-bottom: 70px;
+  gap: 100px;
+  box-shadow: 0 0 3px gray;
+  font-size: 1.2rem;
+  color: rgb(45, 45, 45);
+}
+.Purchase_low_content{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  width: 1280px;
+  color: gray;
+}
+.Purchase_top_content>li>a{
+  color: rgb(45, 45, 45);
+}
 
 /* ================ */
 /*      아이템       */
 /* ================ */
-.main_low_content > .main_low_low_content > .item_store {
+.Purchase_main_content > .item_store {
   display: grid;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
   border-radius: 10px;
-  height: 550px;
+  height: 600px;
   width: 290px;
+
+  gap: 5px;
 }
 
 .item_img > img {
@@ -130,14 +144,15 @@ main{
   height: 50px;
   margin-top: 5px;
 
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   color: black;
+  margin-bottom: 5px;
 }
 
 .item_store > .item_discount_price {
   width: 290px;
 
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: rgb(171, 171, 171);
 }
 
@@ -149,7 +164,7 @@ main{
 .item_store > .item_price {
   width: 290px;
 
-  font-size: 1.15rem;
+  font-size: 1.3rem;
 }
 
 .item_price > ul > .discount {
@@ -166,5 +181,5 @@ main{
   color: rgb(171, 171, 171);
   width: 290px;
 
-  font-size: 0.813rem;
+  font-size: 1rem;
 }

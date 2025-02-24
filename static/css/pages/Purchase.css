@@ -1,6 +1,6 @@
 section {
     width: 95rem;
-    height: 1400px;
+    height: 1300px;
     margin: 0px auto;
     text-align: center;
     align-items: center;
@@ -60,10 +60,8 @@ section> h1{
 
 main{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
-    margin-top: 50px;
-    padding: 0px 35px;
-    max-height: 1000px;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 2fr));
+    padding: 0px 60px;
     margin: 30px auto; 
     /* grid-template-rows: 500px 500px 500px; */
     /* display: flex; */
@@ -82,8 +80,8 @@ main{
 
 main > .carrot > a > img {
     border-radius: 15px;
-    width: 250px;
-    height: 350px;
+    width: 150px;
+    height: 200px;
     margin: 10px;
     position: relative;
     box-shadow: 10px 10px 15px gray;
@@ -122,6 +120,11 @@ main > .carrot > a > img:hover{
 
   .carrot:hover #cate{
     display: block;
+  }
+
+  main>.carrot{
+    padding: 50px;
+
   }
 
     nav>.category{

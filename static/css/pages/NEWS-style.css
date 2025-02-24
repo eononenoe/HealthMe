@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 
-main{
+main {
   margin-bottom: 1050px;
 }
 /* 버튼 */
@@ -20,7 +20,7 @@ main{
   margin-top: 20px;
 }
 
-main>.news-banner>.announ {
+main > .news-banner > .announ {
   background-color: #3e74ff;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -28,7 +28,7 @@ main>.news-banner>.announ {
   color: white;
 }
 
-main>.news-banner>.popular {
+main > .news-banner > .popular {
   background-color: #d06e8f;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -45,7 +45,7 @@ main > .news-banner > .hot-issue {
 }
 
 /* scroll-box */
-main>.scroll-box {
+main > .scroll-box {
   width: 970px;
   /* height: 1000px; 이거 지우면 세로 scroll 자동 늘어남 */
   border: 1px solid rgba(19, 14, 103, 0.705);
@@ -188,11 +188,11 @@ li {
   display: none;
 }
 
-#slide1:checked~.sliders {
+#slide1:checked ~ .sliders {
   transform: translateX(0);
 }
 
-#slide2:checked~.sliders {
+#slide2:checked ~ .sliders {
   transform: translateX(-50%);
 }
 
@@ -213,7 +213,7 @@ li {
 }
 
 /* scroll-box-공지-indi */
-.annou-section>.annou-section-indi {
+.annou-section > .annou-section-indi {
   border: 1px solid slateblue;
 }
 
@@ -226,7 +226,7 @@ li {
 }
 
 /* icon */
-.anoun-comment>.anoun-comment-letter {
+.anoun-comment > .anoun-comment-letter {
   display: inline-block;
   height: 70px;
   margin-top: 10px;
@@ -257,10 +257,9 @@ li {
 
 /* 인기있는 재료 */
 .ingre-section {
-  width: 375px;
   gap: 10px;
   display: grid;
-  grid-template-columns: 370px 1fr;
+  grid-template-columns: 367px 1fr;
 }
 
 .popular-ingredient {
@@ -269,7 +268,9 @@ li {
   margin-bottom: 10px;
   gap: 10px;
 }
-
+.ingre-section-left {
+  width: 367px;
+}
 .ingre-img {
   object-fit: cover;
   width: 367px;
@@ -352,12 +353,11 @@ li {
 }
 
 .floating {
-
   position: fixed;
   top: 400px;
   right: 30px;
-  position: fixed;          
-  right: 30px;      
+  position: fixed;
+  right: 30px;
   width: 7.5rem;
   height: auto;
   background-color: rgb(255, 255, 255);
@@ -403,7 +403,7 @@ li {
   background-color: white;
 }
 
-.floating>.text12 {
+.floating > .text12 {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(211, 210, 210);
   border-radius: 6px;
@@ -422,7 +422,7 @@ li {
   margin: 15px;
 }
 
-.footer{
+.footer {
   margin-top: 2350px;
 }
 
@@ -434,7 +434,7 @@ a {
   text-decoration: none;
 }
 
-main{
+main {
   margin-bottom: 1050px;
 }
 /* 버튼 */
@@ -448,7 +448,7 @@ main{
   margin-top: 20px;
 }
 
-main>.news-banner>.announ {
+main > .news-banner > .announ {
   background-color: #3e74ff;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -456,7 +456,7 @@ main>.news-banner>.announ {
   color: white;
 }
 
-main>.news-banner>.popular {
+main > .news-banner > .popular {
   background-color: #d06e8f;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -473,7 +473,7 @@ main > .news-banner > .hot-issue {
 }
 
 /* scroll-box */
-main>.scroll-box {
+main > .scroll-box {
   width: 970px;
   /* height: 1000px; 이거 지우면 세로 scroll 자동 늘어남 */
   border: 1px solid rgba(19, 14, 103, 0.705);
@@ -616,11 +616,11 @@ li {
   display: none;
 }
 
-#slide1:checked~.sliders {
+#slide1:checked ~ .sliders {
   transform: translateX(0);
 }
 
-#slide2:checked~.sliders {
+#slide2:checked ~ .sliders {
   transform: translateX(-50%);
 }
 
@@ -641,8 +641,9 @@ li {
 }
 
 /* scroll-box-공지-indi */
-.annou-section>.annou-section-indi {
+.annou-section > .annou-section-indi {
   border: 1px solid slateblue;
+  overflow: hidden;
 }
 
 .anoun-comment {
@@ -654,7 +655,7 @@ li {
 }
 
 /* icon */
-.anoun-comment>.anoun-comment-letter {
+.anoun-comment > .anoun-comment-letter {
   display: inline-block;
   height: 70px;
   margin-top: 10px;
@@ -689,6 +690,10 @@ li {
   gap: 10px;
   display: grid;
   grid-template-columns: 370px 1fr;
+  object-fit: scale-down;
+}
+.ingre-section img {
+  max-width: 100%;
 }
 
 .popular-ingredient {
@@ -780,12 +785,11 @@ li {
 }
 
 .floating {
-
   position: fixed;
   top: 400px;
   right: 30px;
-  position: fixed;          
-  right: 30px;      
+  position: fixed;
+  right: 30px;
   width: 7.5rem;
   height: auto;
   background-color: rgb(255, 255, 255);
@@ -831,7 +835,7 @@ li {
   background-color: white;
 }
 
-.floating>.text12 {
+.floating > .text12 {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(211, 210, 210);
   border-radius: 6px;
@@ -850,6 +854,6 @@ li {
   margin: 15px;
 }
 
-.footer{
+.footer {
   margin-top: 2350px;
 }

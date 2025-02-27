@@ -5,12 +5,27 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-bottom: 90px;
+    margin-top: 50px;
+  }
+
+.nutritional_low_content{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  width: 1280px;
+}
+.nutritional_low_content>li,
+.nutritional_low_content>li>a
+  {
+  color: gray;
   }
   .nutritional_content {
     width: 1280px;
     padding: 0 0 0 0;
-    margin-top: 30px;
+    margin-top: 20px;
   
     display: flex;
     justify-content: center;
@@ -20,19 +35,6 @@ main{
   
     gap: 20px;
   }
-  .nutritional_low_content{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 20px;
-    width: 1280px;
-    color: gray;
-  }
-  
-  /* ================ */
-  /*     메인 네비    */
-  /* ================ */
-  
   
   /* ================ */
   /*      아이템       */

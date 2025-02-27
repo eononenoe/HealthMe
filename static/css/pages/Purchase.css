@@ -100,18 +100,34 @@ main{
 /* ================ */
 /*      아이템       */
 /* ================ */
-.Purchase_main_content > .item_store {
+/* .Purchase_main_content > .item_store {
   display: grid;
+  grid-template-columns: (4);
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 
   border-radius: 10px;
   height: 600px;
   width: 290px;
 
   gap: 5px;
+} */
+.Purchase_content {
+  display: grid;
+  /* flex-wrap: wrap; */
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* display: flex; */
+
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 290px;
+
+  gap: 50px;
 }
+ 
 
 .item_img > img {
   width: 290px;

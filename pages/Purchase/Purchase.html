@@ -24,14 +24,16 @@
 <body>
     <header>
         <div class="logo">
-            <div>
-                <span class="logo_eng">HealthMe</span>
-                <span>ㅤ|ㅤ</span>
-                <span class="logo_kor"> 헬시미</span>
-            </div>
-            <div class="logo_img">
-                <img width="100px" height="100px" src="../../img/당근.png" alt="">
-            </div>
+            <a href="../../index.html">
+                <div>
+                    <span class="logo_eng">HealthMe</span>
+                    <span>ㅤ|ㅤ</span>
+                    <span class="logo_kor"> 헬시미</span>
+                </div>
+                <div class="logo_img">
+                    <img width="100px" height="100px" src="../../img/당근.png" alt="">
+                </div>
+            </a>
         </div>
         <!-- 네비게이션 -->
         <nav>
@@ -51,7 +53,7 @@
                 <ul class="low_header_nav">
                     <li><a href="/pages/document/document.html">영양성분</a></li>
                     <li><a href="/pages/custom nutritional/custom_nutritional.html">맞춤 추천</a></li>
-                    <li><a href="./pages/Purchase/Purchase.html">구매</a></li>
+                    <li><a href="/pages/Purchase/Purchase.html">구매</a></li>
                     <li><a href="/pages/calender/calendar.html">달력</a></li>
                     <li><a href="/pages/news/NEWS-index.html">뉴스</a></li>
                 </ul>
@@ -59,505 +61,464 @@
         </nav>
     </header>
     <main>
-        <section>
-            <content>
-                <div class="Purchase_title">재료 구매</div>
-                <ul class="Purchase_top_content">
-                    <li><a onclick="filterCategory('신제품')">신제품</a></li>
-                    <li><a onclick="filterCategory('제철음식')">제철음식</a></li>
-                    <li><a onclick="filterCategory('축산')">축산</a></li>   
-                    <li><a onclick="filterCategory('농산')">농산</a></li>
-                    <li><a onclick="filterCategory('수산')">수산</a></li>
-                </ul>
-                <ul class="Purchase_low_content">
-                    <li><a href="#">추천순</a></li>
-                    <li>|</li>
-                    <li><a href="#">신상품순</a></li>
-                    <li>|</li>
-                    <li><a href="#">판매량순</a></li>
-                    <li>|</li>
-                    <li><a href="#">낮은 가격순</a></li>
-                    <li>|</li>
-                    <li><a href="#">높은 가격순</a></li>
-                </ul>
-
-                <ul class="Purchase_content">
-                        <li class="item_store 축산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/4c36b050-06f9-4ce1-9597-27bf4c2563fb.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>[JJH365] 한돈 부위별 대용량 가성비
-                                    7종</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>28,900원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">34%</li>
-                                    <li class="price">18,900원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 축산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/b5afa0d9-0d39-424a-b4aa-df14e290244e.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>[KIM01] 동물복지 백색 유정란 20구</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>10,200원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">15%</li>
-                                    <li class="price">8,670원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 농산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/2806a17d-deba-4bc4-b6ec-d6dc0c96e575.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>[YSB111] 유기농 채소믹스 600g (냉동)</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>8,990원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">5%</li>
-                                    <li class="price">8,490원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 농산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/dd55e8f3-621f-4b3b-b775-460c4b6c2435.jpeg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>[YSH45] 완숙토마토 1kg</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>11,900원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">16%</li>
-                                    <li class="price">9,900원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 농산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a78fcd53-dd61-4b5c-afcd-7ee9a583e045.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>[JJH09] 칠레산 블루베리 125g*3</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>19,900원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">49%</li>
-                                    <li class="price">9,900원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 농산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/4436fdec-039d-4683-b8f3-7ebf677ad190.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>[JJH30] 대추방울토마토 750g</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>11,900원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">41%</li>
-                                    <li class="price">6,990원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 농산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/8a813917-6a80-4a23-8bf1-074df5875493.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>[JJH05] 채소믹스 500g</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>5,990원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">11%</li>
-                                    <li class="price">5,290원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 축산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/5a551f25-bcc3-4b26-914e-4cedce85dc7e.jpeg?v=0531"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>[JJH21] 호주산 목초육 치마살 구이용 300g</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>16,590원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">27%</li>
-                                    <li class="price">11,900원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 농산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/40f32843-23d3-4ad4-b279-e8668a156faa.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>간편 파프리카 220g</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>4,990원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">3%</li>
-                                    <li class="price">4,500원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 수산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/0bdb4032-9df4-4037-8a25-a96a2ceec3d8.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>손질 생새우살 200g(냉동)</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>8,400원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">16%</li>
-                                    <li class="price">6,980원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 수산">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a0b3861a-d6ad-48fc-b55f-c539779d1105.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>국산 손질오징어 300g(냉장)</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>16,900원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">17%</li>
-                                    <li class="price">13,900원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 신제품">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/521b15d7-61f5-4d89-b2fd-7d60e8a50c21.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>유기농 베이글 5개입(냉동)</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>11,900원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">10%</li>
-                                    <li class="price">10,710원</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 신제품">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/767ec951-10f6-42dc-a753-9bafb7e4c168.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>롱 파스타면 7종</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>19,900원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">2%</li>
-                                    <li class="price">17,900원</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 신제품">
-                            <div class="item_img">
-                                <img src="https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1582000256134l0.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>엑스트라 버진 올리브 오일 500mL</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>20,900원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">3%</li>
-                                    <li class="price">18,990원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 신제품">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/22f8b22f-c3c3-4ede-b152-9e325d310c41.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>발아현미밥 작은공기 390g</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>5,490원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">27%</li>
-                                    <li class="price">3,980원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <li class="item_store 신제품">
-                            <div class="item_img">
-                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/22702b7a-669f-4e3d-9c2b-4c828993b200.jpg"
-                                    alt="">
-                            </div>
-                            <div class="item_add">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
-                            </div>
-                            <div class="item_name">
-                                <span>바이오 그릭 요거트 400g</span>
-                            </div>
-                            <div class="item_discount_price">
-                                <del>4,680원</del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount">25%</li>
-                                    <li class="price">3,510원~</li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <i class="fa-regular fa-comment-dots"></i>
-                                <span>999+</span>
-                            </div>
-                        </li>
-                        <!-- 빈값 -->
-                        <li class="item_store 축산">
-                            <div class="item_img">
-                            </div>
-                            <div class="item_name">
-                            </div>
-                            <div class="item_discount_price">
-                                <del></del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount"></li>
-                                    <li class="price"></li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <span></span>
-                            </div>
-                        </li>
-                        <li class="item_store 수산">
-                            <div class="item_img">
-                            </div>
-                            <div class="item_name">
-                            </div>
-                            <div class="item_discount_price">
-                                <del></del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount"></li>
-                                    <li class="price"></li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <span></span>
-                            </div>
-                        </li>
-                        <li class="item_store 수산">
-                            <div class="item_img">
-                            </div>
-                            <div class="item_name">
-                            </div>
-                            <div class="item_discount_price">
-                                <del></del>
-                            </div>
-                            <div class="item_price">
-                                <ul>
-                                    <li class="discount"></li>
-                                    <li class="price"></li>
-                                </ul>
-                            </div>
-                            <div class="item_review">
-                                <span></span>
-                            </div>
-                        </li>
-                    
-                </ul>
-            </content>
-        </section>
+        <div class="Purchase_title">재료 구매</div>
+        <ul class="Purchase_top_content">
+            <li><a onclick="filterCategory('신제품')">신제품</a></li>
+            <li><a onclick="filterCategory('제철음식')">제철음식</a></li>
+            <li><a onclick="filterCategory('축산')">축산</a></li>
+            <li><a onclick="filterCategory('농산')">농산</a></li>
+            <li><a onclick="filterCategory('수산')">수산</a></li>
+        </ul>
+        <ul class="Purchase_low_content">
+            <li><a href="#">추천순</a></li>
+            <li>|</li>
+            <li><a href="#">신상품순</a></li>
+            <li>|</li>
+            <li><a href="#">판매량순</a></li>
+            <li>|</li>
+            <li><a href="#">낮은 가격순</a></li>
+            <li>|</li>
+            <li><a href="#">높은 가격순</a></li>
+        </ul>
+        <div class="Purchase_content">
+            <ul class="Purchase_left_content">
+                <li class="Purchase_left_title">필터</li>
+                <li><input type="radio" value=""> 채소</li>
+                <li><input type="radio" value=""> 과일</li>
+                <li><input type="radio" value=""> 샐러드</li>
+                <li><input type="radio" value=""> 유제품</li>
+                <li><input type="radio" value=""> 영양제</li>
+                <br>
+                <li class="Purchase_left_title">포장타입</li>
+                <li><input type="radio" value=""> 냉장</li>
+                <li><input type="radio" value=""> 냉동</li>
+                <br>
+                <li class="Purchase_left_title">가격</li>
+                <li><input type="radio" value=""> 6,000미만</li>
+                <li><input type="radio" value=""> 6,000원~7,000원</li>
+                <li><input type="radio" value=""> 7,000원~8,000원</li>
+            </ul>
+            <ul class="Purchase_right_content">
+                <li class="item_store 축산">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/4c36b050-06f9-4ce1-9597-27bf4c2563fb.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>한돈 부위별 대용량 가성비
+                            7종</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>28,900원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">34%</li>
+                            <li class="price">18,900원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 축산">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/b5afa0d9-0d39-424a-b4aa-df14e290244e.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>동물복지 백색 유정란 20구</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>10,200원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">15%</li>
+                            <li class="price">8,670원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 농산">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/2806a17d-deba-4bc4-b6ec-d6dc0c96e575.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>유기농 채소믹스 600g (냉동)</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>8,990원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">5%</li>
+                            <li class="price">8,490원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 농산 item_store 제철음식">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/dd55e8f3-621f-4b3b-b775-460c4b6c2435.jpeg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>완숙토마토 1kg</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>11,900원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">16%</li>
+                            <li class="price">9,900원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 농산">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a78fcd53-dd61-4b5c-afcd-7ee9a583e045.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>칠레산 블루베리 125g*3</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>19,900원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">49%</li>
+                            <li class="price">9,900원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 농산">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/4436fdec-039d-4683-b8f3-7ebf677ad190.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>대추방울토마토 750g</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>11,900원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">41%</li>
+                            <li class="price">6,990원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 축산">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/5fe86c36-0de7-4898-8f71-c644a841f117.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>1등급 닭 다리살 2종(내장)</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>18,990원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">15%</li>
+                            <li class="price">16,290원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 축산 item_store 제철음식">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/5a551f25-bcc3-4b26-914e-4cedce85dc7e.jpeg?v=0531"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>호주산 목초육 치마살 구이용 300g</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>16,590원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">27%</li>
+                            <li class="price">11,900원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 수산 item_store 제철음식">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/faa7f5dc-3f71-4211-a199-ed40d03c2aab.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>신선한 국산 생굴 420g</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>10,590원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">25%</li>
+                            <li class="price">7,790원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 수산">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/0bdb4032-9df4-4037-8a25-a96a2ceec3d8.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>손질 생새우살 200g(냉동)</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>8,400원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">16%</li>
+                            <li class="price">6,980원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 수산">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a0b3861a-d6ad-48fc-b55f-c539779d1105.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>국산 손질오징어 300g(냉장)</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>16,900원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">17%</li>
+                            <li class="price">13,900원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 신제품">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/521b15d7-61f5-4d89-b2fd-7d60e8a50c21.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>유기농 베이글 5개입(냉동)</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>11,900원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">10%</li>
+                            <li class="price">10,710원</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 신제품">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/767ec951-10f6-42dc-a753-9bafb7e4c168.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>롱 파스타면 7종</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>19,900원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">2%</li>
+                            <li class="price">17,900원</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 신제품">
+                    <div class="item_img">
+                        <img src="https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1582000256134l0.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>엑스트라 버진 올리브 오일 500mL</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>20,900원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">3%</li>
+                            <li class="price">18,990원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 제철음식 item_store 수산">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/8d7f50d0-5713-4f83-bdcc-4deb87c658e9.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>노르웨이 생연어회 200g(냉장)</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>19,900원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">17%</li>
+                            <li class="price">16,490원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <li class="item_store 신제품">
+                    <div class="item_img">
+                        <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/22702b7a-669f-4e3d-9c2b-4c828993b200.jpg"
+                            alt="">
+                    </div>
+                    <div class="item_add">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                    </div>
+                    <div class="item_name">
+                        <span>바이오 그릭 요거트 400g</span>
+                    </div>
+                    <div class="item_discount_price">
+                        <del>4,680원</del>
+                    </div>
+                    <div class="item_price">
+                        <ul>
+                            <li class="discount">25%</li>
+                            <li class="price">3,510원~</li>
+                        </ul>
+                    </div>
+                    <div class="item_review">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>999+</span>
+                    </div>
+                </li>
+                <!-- 빈값 -->
+            </ul>
+        </div>
     </main>
     <footer>
         <div class="top_info">
@@ -600,7 +561,7 @@
                 item.style.display = 'block';  // 카테고리 항목 보이기
             });
         }
-s
+        s
 
     </script>
 </body>
